@@ -3,24 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
-  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+        content="Switch-JustDance: Benchmarking Whole-Body Motion Tracking Policies Using a Commercial Console Game.">
+  <meta name="keywords" content="Switch, JustDance, Motion Tracking, Benchmarking">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nerfies: Deformable Neural Radiance Fields</title>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-
-    gtag('config', 'G-PYVRSFMDRL');
-  </script>
+  <title>Switch-JustDance: Benchmarking Whole-Body Motion Tracking Policies Using a Commercial Console Game</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -42,85 +28,56 @@
 </head>
 <body>
 
-<nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-  <div class="navbar-menu">
-    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="https://keunhong.com">
-      <span class="icon">
-          <i class="fas fa-home"></i>
-      </span>
-      </a>
-
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More Research
-        </a>
-        <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://hypernerf.github.io">
-            HyperNeRF
-          </a>
-          <a class="navbar-item" href="https://nerfies.github.io">
-            Nerfies
-          </a>
-          <a class="navbar-item" href="https://latentfusion.github.io">
-            LatentFusion
-          </a>
-          <a class="navbar-item" href="https://photoshape.github.io">
-            PhotoShape
-          </a>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</nav>
-
-
 <section class="hero">
   <div class="hero-body">
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Nerfies: Deformable Neural Radiance Fields</h1>
+          <h1 class="title is-1 publication-title">Switch-JustDance: Benchmarking Whole-Body Motion Tracking Policies Using a Commercial Console Game</h1>
           <div class="is-size-5 publication-authors">
-            <span class="author-block">
-              <a href="https://keunhong.com">Keunhong Park</a><sup>1</sup>,</span>
-            <span class="author-block">
-              <a href="https://utkarshsinha.com">Utkarsh Sinha</a><sup>2</sup>,</span>
-            <span class="author-block">
-              <a href="https://jonbarron.info">Jonathan T. Barron</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="http://sofienbouaziz.com">Sofien Bouaziz</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://www.danbgoldman.com">Dan B Goldman</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://homes.cs.washington.edu/~seitz/">Steven M. Seitz</a><sup>1,2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="http://www.ricardomartinbrualla.com">Ricardo Martin-Brualla</a><sup>2</sup>
-            </span>
+          <style>
+          .author-block a {
+              color: inherit;          /* same color as surrounding text */
+              text-decoration: none;   /* no underline */
+          }
+
+          .author-block a:hover {
+              color: #ff1e1e;          /* change color on hover (customize as you like) */
+          }
+          </style>
+
+          <span class="author-block"><a href="https://jhkim.me/" target="_blank">Jeonghwan Kim<sup>1*</sup></a>,</span>
+          <span class="author-block"><a href="https://dnjsxor999.github.io/" target="_blank">Wontaek Kim<sup>1*</sup></a>,</span>
+          <span class="author-block"><a href="https://lu-yidan.github.io/" target="_blank">Yidan Lu<sup>2,7*</sup></a>,</span>
+          <span class="author-block"><a href="https://jin-cheng.me/" target="_blank">Jin Cheng<sup>3*</sup></a>,</span>
+          <span class="author-block"><a href="https://fatemehzargar.com/" target="_blank">Fatemeh Zargarbashi<sup>3*</sup></a>,</span>
+          <span class="author-block"><a href="https://zczeng.com/" target="_blank">Zicheng Zeng<sup>4*</sup></a>,</span>
+          <span class="author-block"><a href="https://qizekun.github.io/" target="_blank">Zekun Qi<sup>5*</sup></a>,</span>
+          <span class="author-block"><a href="https://frank-zy-dou.github.io/" target="_blank">Zhiyang Dou<sup>6</sup></a>,</span>
+          <span class="author-block"><a href="https://sites.google.com/view/nitishsontakke/" target="_blank">Nitish Sontakke<sup>1</sup></a>,</span>
+          <span class="author-block"><a href="https://scholar.google.com/citations?user=MbsEFrYAAAAJ&hl=en" target="_blank">Donghoon Baek<sup>1</sup></a>,</span>
+          <span class="author-block"><a href="https://faculty.cc.gatech.edu/~sha9/" target="_blank">Sehoon Ha<sup>1</sup></a>,</span>
+          <span class="author-block"><a href="https://easypapersniper.github.io/" target="_blank">Tianyu Li<sup>1</sup></a></span>
           </div>
 
-          <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>University of Washington,</span>
-            <span class="author-block"><sup>2</sup>Google Research</span>
+          <div class="is-size-6 publication-authors">
+            <span class="author-block"><sup>1</sup>Georgia Tech,</span>
+            <span class="author-block"><sup>2</sup>HKU,</span>
+            <span class="author-block"><sup>3</sup>ETH Zurich,</span>
+            <span class="author-block"><sup>4</sup>SCUT,</span>
+            <span class="author-block"><sup>5</sup>THU,</span>
+            <span class="author-block"><sup>6</sup>MIT,</span>
+            <span class="author-block"><sup>7</sup>PNDbotics</span>
           </div>
 
+          <div class="is-size-6 publication-authors">
+            <span class="author-block">*Equally Contributed, {jkim3662, sehoonha, tli471}@gatech.edu</span>
+          </div>
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/pdf/2011.12948"
+                <a href="https://arxiv.org/pdf/2511.17925"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -129,7 +86,7 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2011.12948"
+                <a href="https://arxiv.org/pdf/2511.17925"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -137,37 +94,7 @@
                   <span>arXiv</span>
                 </a>
               </span>
-              <!-- Video Link. -->
-              <span class="link-block">
-                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
-                </a>
-              </span>
-              <!-- Code Link. -->
-              <span class="link-block">
-                <a href="https://github.com/google/nerfies"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-github"></i>
-                  </span>
-                  <span>Code</span>
-                  </a>
-              </span>
-              <!-- Dataset Link. -->
-              <span class="link-block">
-                <a href="https://github.com/google/nerfies/releases/tag/0.1"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="far fa-images"></i>
-                  </span>
-                  <span>Data</span>
-                  </a>
             </div>
-
           </div>
         </div>
       </div>
@@ -183,68 +110,8 @@
                 type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
+        <span class="dnerf">Switch-JustDance</span> uses Nintendo Switch to benchmark whole-body motion tracking policies for humanoid robots.
       </h2>
-    </div>
-  </div>
-</section>
-
-
-<section class="hero is-light is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/steve.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/chair-tp.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/shiba.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/fullbody.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-blueshirt">
-          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/blueshirt.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-mask">
-          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/mask.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-coffee">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/coffee.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-toby">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/toby2.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
     </div>
   </div>
 </section>
@@ -257,186 +124,181 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
-          </p>
-          <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
-          </p>
-          <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
-          </p>
+        <p>
+        Recent advances in whole-body robot control have enabled humanoid and legged robots to perform increasingly agile and coordinated motions. However, standardized benchmarks for evaluating these capabilities in real-world settings, and in direct comparison to humans, remain scarce. Existing evaluations often rely on pre-collected human motion datasets or simulation-based experiments, which limit reproducibility, overlook hardware factors, and hinder fair human–robot comparisons.
+        </p>
+        <p>
+        We present <b>Switch-JustDance</b>, a low-cost and reproducible benchmarking pipeline that leverages motion-sensing console games, <i>Just Dance</i> on the Nintendo Switch, to evaluate robot whole-body control. Using <i>Just Dance</i> on the Nintendo Switch as a representative platform, Switch-JustDance converts in-game choreography into robot-executable motions through streaming, motion reconstruction, and motion retargeting modules and enables users to evaluate controller performance through the game’s built-in scoring system.
+        </p>
+        <p>
+        We first validate the evaluation properties of <i>Just Dance</i>, analyzing its reliability, validity, sensitivity, and potential sources of bias. Our results show that the platform provides consistent and interpretable performance measures, making it a suitable tool for benchmarking embodied AI. Building on this foundation, we benchmark three state-of-the-art humanoid whole-body controllers on hardware and provide insights into their relative strengths and limitations.
+        </p>
         </div>
       </div>
     </div>
     <!--/ Abstract. -->
-
-    <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-    <!--/ Paper video. -->
-  </div>
 </section>
-
 
 <section class="section">
   <div class="container is-max-desktop">
 
-    <div class="columns is-centered">
-
-      <!-- Visual Effects. -->
-      <div class="column">
-        <div class="content">
-          <h2 class="title is-3">Visual Effects</h2>
-          <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
-          </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/dollyzoom-stacked.mp4"
-                    type="video/mp4">
+    <!-- Pipeline Video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">System Pipeline</h2>
+          <video controls autoplay muted preload loop style="width:100%">
+            <source src="static/videos/Pipeline.mp4" type="video/mp4">
           </video>
-        </div>
       </div>
-      <!--/ Visual Effects. -->
+    </div>
+    <!--/ Pipeline Video. -->
 
-      <!-- Matting. -->
-      <div class="column">
-        <h2 class="title is-3">Matting</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <p>
-              As a byproduct of our method, we can also solve the matting problem by ignoring
-              samples that fall outside of a bounding box during rendering.
-            </p>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/matting.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-
+    <!-- Pipeline. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="content has-text-justified">
+        <p>
+        Switch-Justdance pipeline uses <strong>Motion Capture Module</strong> to extract human motion from the Nintendo switch screen.
+        <strong>Retarget Module</strong> is used to convert human motion into robot morphology.
+        With a Joy-Con on a robot’s hand, <strong>Motion Tracking Policies</strong> are commanded to track the reference robot motion.
+        Nintendo Switch uses measurements from the Joy-Con to evaluate the game play.
+        The <strong>In-Game Score</strong> is used to benchmark the motion tracking policy.
+        </p>
         </div>
       </div>
     </div>
-    <!--/ Matting. -->
+    <!--/ Pipeline. -->
+  </div>
+</section>
 
-    <!-- Animation. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Animation</h2>
 
-        <!-- Interpolating. -->
-        <h3 class="title is-4">Interpolating states</h3>
-        <div class="content has-text-justified">
-          <p>
-            We can also animate the scene by interpolating the deformation latent codes of two input
-            frames. Use the slider here to linearly interpolate between the left frame and the right
-            frame.
-          </p>
-        </div>
-        <div class="columns is-vcentered interpolation-panel">
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_start.jpg"
-                 class="interpolation-image"
-                 alt="Interpolate start reference image."/>
-            <p>Start Frame</p>
-          </div>
-          <div class="column interpolation-video-column">
-            <div id="interpolation-image-wrapper">
-              Loading...
+<!-- Switch-Justdance demo with tabs, each tab = one full-width video -->
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-two-thirds">
+        <h1 class="title is-3">JustDance Demo with 🎵</h1>
+      </div>
+    </div>
+
+    <div class="tabs-widget">
+
+      <!-- Tabs header -->
+      <div class="tabs is-centered">
+        <ul class="is-marginless">
+          <li class="is-active" data-tab="old-town"><a>Old Town Road</a></li>
+          <li data-tab="heart-glass"><a>Heart of Glass</a></li>
+          <li data-tab="unstoppable"><a>Unstoppable</a></li>
+          <li data-tab="padam"><a>Padam Padam (Hard)</a></li>
+        </ul>
+      </div>
+
+      <!-- Tabs content -->
+      <div class="tabs-content">
+
+        <!-- Old Town Road -->
+        <div class="tab-pane is-active" id="old-town">
+          <div class="columns is-centered has-text-centered is-full-width">
+            <div class="column is-full">
+              <h2 class="title is-4">Old Town Road</h2>
+              <video controls autoplay muted preload loop style="width:100%">
+                <source src="static/videos/Old_Town_Road.mp4" type="video/mp4">
+              </video>
             </div>
-            <input class="slider is-fullwidth is-large is-info"
-                   id="interpolation-slider"
-                   step="1" min="0" max="100" value="0" type="range">
-          </div>
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_end.jpg"
-                 class="interpolation-image"
-                 alt="Interpolation end reference image."/>
-            <p class="is-bold">End Frame</p>
           </div>
         </div>
-        <br/>
-        <!--/ Interpolating. -->
 
-        <!-- Re-rendering. -->
-        <h3 class="title is-4">Re-rendering the input video</h3>
-        <div class="content has-text-justified">
-          <p>
-            Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
-            viewpoint such as a stabilized camera by playing back the training deformations.
-          </p>
+        <!-- Heart of Glass -->
+        <div class="tab-pane" id="heart-glass">
+          <div class="columns is-centered has-text-centered is-full-width">
+            <div class="column is-full">
+              <h2 class="title is-4">Heart of Glass</h2>
+              <video controls autoplay muted preload loop style="width:100%">
+                <source src="static/videos/Heart_Of_Glass.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
         </div>
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 width="75%">
-            <source src="./static/videos/replay.mp4"
-                    type="video/mp4">
-          </video>
+
+        <!-- Unstoppable -->
+        <div class="tab-pane" id="unstoppable">
+          <div class="columns is-centered has-text-centered is-full-width">
+            <div class="column is-full">
+              <h2 class="title is-4">Unstoppable</h2>
+              <video controls autoplay muted preload loop style="width:100%">
+                <source src="static/videos/Unstoppable.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
         </div>
-        <!--/ Re-rendering. -->
+
+        <!-- Padam Padam -->
+        <div class="tab-pane" id="padam">
+          <div class="columns is-centered has-text-centered is-full-width">
+            <div class="column is-full">
+              <h2 class="title is-4">Padam Padam (Hard)</h2>
+              <video controls autoplay muted preload loop style="width:100%">
+                <source src="static/videos/Padam_Padam.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
 
       </div>
     </div>
-    <!--/ Animation. -->
+    <span style="font-size: 1.0em; color: gray;">*Disclaimer: we use gantry for every controller during evaluation for fair comparison</span>
+  </div>
+</section>
 
 
-    <!-- Concurrent Work. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
+<style>
+.tab-pane { display: none; }
+.tab-pane.is-active { display: block; }
+</style>
 
+
+<!-- JS for tab switching -->
+<script>
+  document.querySelectorAll('.tabs ul li').forEach(tab => {
+    tab.addEventListener('click', () => {
+      // Remove active state from all tabs
+      document.querySelectorAll('.tabs ul li').forEach(t => t.classList.remove('is-active'));
+      // Add active to clicked tab
+      tab.classList.add('is-active');
+
+      // Hide all panes and pause videos
+      document.querySelectorAll('.tab-pane').forEach(pane => {
+        pane.classList.remove('is-active');
+        pane.querySelectorAll('video').forEach(v => v.pause());
+      });
+
+      // Show selected pane
+      const target = tab.getAttribute('data-tab');
+      const activePane = document.getElementById(target);
+      activePane.classList.add('is-active');
+      
+      // Fixed line below
+      activePane.querySelectorAll('video').forEach(v => v.play());
+    });
+  });
+</script>
+    </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Benchmark Result Image -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+      <figure class="image is-centered">
+        <img src="static/images/BenchmarkResult.png" alt="Benchmark Results">
+      </figure>
         <div class="content has-text-justified">
-          <p>
-            There's a lot of excellent work that was introduced around the same time as ours.
-          </p>
-          <p>
-            <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
-          </p>
-          <p>
-            <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
-            both use deformation fields to model non-rigid scenes.
-          </p>
-          <p>
-            Some works model videos with a NeRF by directly modulating the density, such as <a href="https://video-nerf.github.io/">Video-NeRF</a>, <a href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a href="https://neural-3d-video.github.io/">DyNeRF</a>
-          </p>
-          <p>
-            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
-          </p>
+        <p>We evaluate different controllers across a variety of songs in the Just-Dance benchmark. For full experimental details and evaluation protocols, please refer to the paper.</p>
         </div>
       </div>
     </div>
-    <!--/ Concurrent Work. -->
-
   </div>
 </section>
 
@@ -444,12 +306,19 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
-}</code></pre>
+    <pre><code>@article{switch-justdance,
+      author    = {Kim, Jeonghwan and Kim, Wontaek and Lu, Yidan and Cheng, Jin and Zargarbashi, Fatemeh and Zeng, Zicheng and Qi, Zekun and Dou, Zhiyang and Sontakke, Nitish and Baek, Donghoon and Ha, Sehoon and Li, Tianyu},
+      title     = {Switch-JustDance: Benchmarking Whole-Body Motion Tracking Policies Using a Commercial Console Game},
+      journal   = {arXiv},
+      year      = {2025},
+    }</code></pre>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop content">
+    <h2 class="title is-3">Acknowledgments</h2>
+    <p>This work was supported by Samsung Research.</p>
   </div>
 </section>
 
@@ -457,34 +326,19 @@
 <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
-      <a class="icon-link"
-         href="./static/videos/nerfies_paper.pdf">
-        <i class="fas fa-file-pdf"></i>
-      </a>
-      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
-        <i class="fab fa-github"></i>
-      </a>
     </div>
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
           <p>
-            This website is licensed under a <a rel="license"
-                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-          <p>
-            This means you are free to borrow the <a
-              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
-            we just ask that you link back to this page in the footer.
-            Please remember to remove the analytics code included in the header of the website which
-            you do not want on your website.
+            This website has been modified from <a href="https://github.com/nerfies/nerfies.github.io"> Nerfies</a>.
           </p>
         </div>
       </div>
     </div>
   </div>
 </footer>
+
 
 </body>
 </html>
